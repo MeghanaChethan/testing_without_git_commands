@@ -1,0 +1,28 @@
+.flexbox-container{
+ display:flex;
+ /* justify-content: center; */
+ /*justify-content: space-between; /*all the items are evenlly space*/
+/* align-items: center;  /*align the items center in the container*/
+/* flex-direction: column; */
+
+}
+.flexbox-item{
+    width:200px;
+    margin:10px;
+    border:3px solid #333;
+    background-color: #dfdfdf;
+}
+.flexbox-item-1{
+    min-height: 100px;
+    flex-shrink: 0;
+
+}
+.flexbox-item-2{
+    min-height: 200px;
+    /* flex-grow:1;  taken all the space of the second item*/
+    align-self:center;
+
+}
+.flexbox-item-3{
+    min-height:300px;
+}
